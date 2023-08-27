@@ -16,5 +16,7 @@ public class App
         App myInstance = new App();
         int num = 23;
         System.out.println("The square of " + num + " is: " + myInstance.squareANumber(num));
+        num = 4;
+        System.out.println("The square of " + num + " is: " + myInstance.squareANumber(num));
     }
 }
